@@ -80,7 +80,7 @@ class RegisterController extends Controller
         ]);
 
         // TODO: send comfirmation email
-        Mail::to($user)->queue(new NewUserRegistred($user));
+        // Mail::to($user)->queue(new NewUserRegistred($user));
 
         // TODO: Send new user registred to the admin
 
